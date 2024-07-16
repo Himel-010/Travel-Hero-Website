@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shared Styles */
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+section{
+    margin-bottom: 4rem;
+}
+.gray-sub{
+    color: rgb(90, 90, 93);
+    
+    font-size: 1rem;
+    font-weight: 400;
+  
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.nav-lists ul{
+    display: flex;
+    gap: 2.75rem;
+}
+.nav-lists li{
+    list-style: none;
+}
+.nav-lists li a{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav-logo{
+    display: flex;
+    gap: 1rem;
+}
+.nav-logo h1{
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.ulululu{
+    color: rgb(255, 84, 0);
+}
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    height: 500px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 32px;
+}
+.banner-content{
+    max-width: 676px;
+    text-align: center;
+}
+.banner-options{
+    border-radius: 8px;
+
+    background: rgba(255, 255, 255, 0.3);
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.banner-options{
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+
+    background: rgba(255, 255, 255, 0.3);  
+    padding: 16px; 
+}
+.banner-options input, .banner-options button{
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+}
+.banner-options button{
+   
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+   cursor: pointer;
+
+    background: rgb(255, 84, 0);
+}
+::placeholder{
+    color: rgba(19, 19, 24, 0.5);
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+}
+select {
+    border: none;
+    border-radius: 8px;
+    width: 174px;
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    appearance: none; /* Removes default arrow */
+    -webkit-appearance: none; /* Removes default arrow in Safari */
+    -moz-appearance: none; /* Removes default arrow in Firefox */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="rgba(19, 19, 24, 0.5)" d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none; /* Hides the default arrow in IE */
+}
